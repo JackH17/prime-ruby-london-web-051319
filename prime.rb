@@ -7,9 +7,7 @@ def prime?(number)
     
     range.none? do |num_test|
       
-      
-  
-number % num_test == 0 
+      number % num_test == 0 
     return true
   else 
     return false
