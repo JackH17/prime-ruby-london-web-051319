@@ -2,9 +2,9 @@ def prime?(number)
   
   first = 2 
   
+  if number > 1 
   
-  
-  if number % number == 0 
+number % number == 0 
     return true
 
 end
