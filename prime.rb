@@ -6,6 +6,8 @@ def prime?(number)
     range = (first..number-1).to_a
     
     range.none? do |num_test|
+      
+      
   
 number % number == 0 
     return true
